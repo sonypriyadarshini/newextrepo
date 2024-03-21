@@ -24,6 +24,19 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/newpp:
+    name: newpp
+    description: ''
+    author: sony@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2024-03-21 05:52:48'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
@@ -46,7 +59,19 @@ sqlSeeds: {}
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline: null
-dependencies: '[]'
+dependencies:
+- type: plibMaven
+  modifiedAt: '2024-03-21T05:50:57.90532Z'
+  name: plibMaven
+  version: 7.1.82
+  id: '260859764'
+  createdAt: '2024-03-21T05:50:57.905239Z'
+- type: plibPypi
+  modifiedAt: '2024-03-21T05:50:57.905411Z'
+  name: plibPypi
+  version: 1.8.12
+  id: '838286886'
+  createdAt: '2024-03-21T05:50:57.905378Z'
 projectDependencies:
   '42':
     projectUID: 42

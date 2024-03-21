@@ -8,10 +8,11 @@
       "plibVersion" : {
         "mavenVersion" : "7.1.82",
         "pyPiVersion" : "1.8.12"
-      }
+      },
+      "applicationName" : "newpp"
     },
     "id" : "1",
-    "uri" : "pipelines/p0o",
+    "uri" : "pipelines/newpp",
     "language" : "python",
     "fabricId" : "243",
     "frontEndLanguage" : "sql",
@@ -63,7 +64,7 @@
       "enabled" : false,
       "value" : 1000
     },
-    "topLevelPackage" : "p0o",
+    "topLevelPackage" : "newpp",
     "configurationVersion" : "v2"
   },
   "connections" : [ ],
