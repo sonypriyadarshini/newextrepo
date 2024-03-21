@@ -1,6 +1,6 @@
 name: ext_new1
 description: ''
-version: '2'
+version: '1'
 author: sony@prophecy.io
 language: python
 buildSystem: ''
