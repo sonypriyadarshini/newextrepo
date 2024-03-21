@@ -4,11 +4,7 @@
       "gemBuilderVersion" : "v1"
     },
     "codeGenConfiguration" : {
-      "editableConfig" : true,
-      "plibVersion" : {
-        "mavenVersion" : "7.1.82",
-        "pyPiVersion" : "1.8.12"
-      }
+      "editableConfig" : true
     },
     "id" : "1",
     "uri" : "pipelines/p0o",
@@ -64,7 +60,7 @@
       "value" : 1000
     },
     "topLevelPackage" : "p0o",
-    "configurationVersion" : "v2"
+    "configurationVersion" : "v1"
   },
   "connections" : [ ],
   "processes" : { },
