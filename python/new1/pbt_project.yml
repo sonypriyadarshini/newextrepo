@@ -1,6 +1,6 @@
 name: ext_new1
 description: ''
-version: internal1
+version: '1'
 author: sony@prophecy.io
 language: python
 buildSystem: ''
@@ -59,19 +59,7 @@ sqlSeeds: {}
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline: null
-dependencies:
-- type: plibMaven
-  modifiedAt: '2024-03-21T05:50:57.90532Z'
-  name: plibMaven
-  version: 7.1.82
-  id: '260859764'
-  createdAt: '2024-03-21T05:50:57.905239Z'
-- type: plibPypi
-  modifiedAt: '2024-03-21T05:50:57.905411Z'
-  name: plibPypi
-  version: 1.8.12
-  id: '838286886'
-  createdAt: '2024-03-21T05:50:57.905378Z'
+dependencies: '[]'
 projectDependencies:
   '42':
     projectUID: 42
