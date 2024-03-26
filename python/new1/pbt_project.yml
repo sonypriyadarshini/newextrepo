@@ -37,6 +37,19 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/nom:
+    name: nom
+    description: ''
+    author: sony@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2024-03-26 09:21:01'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
