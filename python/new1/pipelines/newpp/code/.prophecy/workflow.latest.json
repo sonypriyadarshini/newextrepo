@@ -6,10 +6,9 @@
     "codeGenConfiguration" : {
       "editableConfig" : true,
       "plibVersion" : {
-        "mavenVersion" : "7.1.82",
+        "mavenVersion" : "7.1.79",
         "pyPiVersion" : "1.8.12"
-      },
-      "applicationName" : "newpp"
+      }
     },
     "id" : "1",
     "uri" : "pipelines/newpp",
